@@ -1,0 +1,35 @@
+{
+  "todoList": [
+    {
+      "title": "Wake up",
+      "description": "Wake up at 6 AM",
+      "id": 1
+    },
+    {
+      "title": "Eating",
+      "description": "Eat",
+      "id": 2
+    },
+    {
+      "title": "Coding",
+      "description": "Coding",
+      "id": 3
+    },
+    {
+      "title": "Sleep",
+      "description": "Sleep",
+      "id": 4
+    },
+    {
+      "title": "Relax",
+      "description": "Play game, watching TV,...",
+      "id": 5
+    },
+    {
+      "title": "...",
+      "description": "...",
+      "id": 6
+    }
+  ],
+  "completeList": []
+}

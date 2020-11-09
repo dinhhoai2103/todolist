@@ -1,0 +1,147 @@
+.todo-list {
+  color: #ef629f;
+  width: calc(100%);
+  background: -webkit-linear-gradient(
+    to bottom,
+    #eecda3,
+    #ef629f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #eecda3, #ef629f);
+  position: relative;
+}
+.todo-header {
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-header h2 {
+  font-size: 4rem;
+}
+.add {
+  width: 80%;
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto 1em;
+}
+
+.add button {
+  margin-left: 0.5em;
+  height: 80px;
+  width: 80px;
+  font-size: 2rem;
+  border: none;
+  background: #00bcd4;
+}
+.add button {
+  color: #f54291;
+  background: linear-gradient(to right, #eecda3, #ef629f);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+}
+.add button:hover {
+  background: #a2d5f2;
+  color: #ef629f;
+}
+.jobs {
+  width: 40%;
+  margin: auto;
+  margin-top: 3em;
+  font-size: 1.5rem;
+}
+.todo-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #c4e0e5;
+  margin: 1.5em auto;
+  border-radius: 50px;
+}
+.todo-item {
+  margin: auto;
+  text-align: center;
+}
+.todo-items i,
+.todo-items button i {
+  display: flex;
+  cursor: pointer;
+  padding: 1.5rem;
+  align-items: center;
+}
+.done {
+  border-radius: 50px 0 0 50px;
+}
+.done:hover {
+  color: #c4e0e5;
+  background: #7cfc00;
+}
+.delete:hover {
+  border-radius: 0 50px 50px 0;
+  color: #c4e0e5;
+  background: red;
+}
+.edit:hover {
+  color: #c4e0e5;
+  background: yellow;
+}
+
+.show-icon:hover,
+.hide-icon:hover {
+  color: #c4e0e5;
+  background: gray;
+}
+.edit:hover {
+  color: #c4e0e5;
+  background: yellow;
+}
+
+/* SEARCH BOX */
+.search-box {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ef629f;
+  height: 60px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.search-box:hover > .search-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+.search-btn {
+  float: right;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.search-icon {
+  color: #a2d5f2;
+}
+.search-btn > i {
+  font-size: 90px;
+}
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+  font-weight: bold;
+}
+.title {
+  width: 500px;
+  text-align: center;
+}
